@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Psuedo_Elements</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+  body{
+      background-image: url("nature.jpg");
+  }     
+
+
+ h1::first-letter{
+background-color: blue;
+color: white;
+font-size: 4pc;
+font-style: italic;
+border-radius: 2pc;
+margin-left: 1pc;
+
+}
+h2::first-letter{
+    background-color: yellowgreen;
+    color: brown;
+    font-size: 4pc;
+    font-style: italic;
+    border-radius: 2pc;
+    margin-left: 1pc;
+
+}
+h3::first-letter{
+    background-color: rgb(245, 164, 14);
+    color: rgb(124, 206, 209);
+    font-size: 4pc;
+    font-style: italic;
+    border-radius: 2pc;
+    margin-left: 1pc;
+
+}
+h4::first-letter{
+    background-color: rgb(252, 115, 4);
+    color: rgb(14, 1, 1);
+    font-size: 4pc;
+    font-style: italic;
+    border-radius: 2pc;
+    margin-left: 1pc;
+
+}
+h5::first-letter{
+    background-color: rgb(255, 0, 0);
+    color: rgb(241, 237, 237);
+    font-size: 4pc;
+    font-style: italic;
+    border-radius: 2pc;
+    margin-left: 1pc;
+
+}
+h6::first-letter{
+    background-color: rgb(255, 7, 193);
+    color: rgb(198, 130, 207);
+    font-size: 4pc;
+    font-style: italic;
+    border-radius: 2pc;
+    margin-left: 1pc;
+
+}
+.first::first-letter{
+    font-size: 4pc;
+    font-style: calc();
+    margin-left: 1pc;
+}
+.img{
+    float: right;
+    margin-right: 35pc;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 5pc;
+  border:  solid red;
+  text-align: center;
+  border-radius: 25pc;
+  padding: 1pc;
+
+   
+}
+.a{
+    margin: 1pc;
+    font-size: 1pc;
+    font-style: italic;
+    font-size: 2pc;
+    
+}
+.b{
+    margin: 1pc;
+    font-size: 1pc;
+    font-style: italic;
+    font-size: 2pc;
+    
+}
+.c{
+    margin: 1pc;
+    font-size: 1pc;
+    font-style: italic;
+     font-size: 2pc;
+}
+.d{
+    margin-left: 60pc;
+    font-size: 1pc;
+    text-decoration: underline;
+ 
+    
+}
+.e{
+    font-size: 2pc;
+    text-align: center;
+   background-color: blue;
+    color: white;
+}
+.first::first-line{
+    background-color: aqua;
+    color: orange;
+}
+.first::first-letter{
+    background-color: gold;
+    color: yellowgreen;
+}
+.intro::first-letter{
+    color: blue;
+ 
+    font-size: 3pc;
+}
+.apple{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+.ball{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.cat{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.dog{
+    font-size: 2pc;
+    text-align: center;
+
+}
+li:nth-child(2){
+    color: chartreuse;
+}
+li:nth-child(2n){
+    color: crimson;
+}
+a:link{
+    color: brown;
+}
+a:hover{
+    color: darkgreen;
+}
+a:active{
+    color: deeppink;
+}
+a:visited{
+    color: rgb(255, 129, 4);
+}
+.got{
+    text-align: center;
+    
+    
+}
+.bell{
+    text-align: center;
+}
+.nidhi{
+    font-size: 2pc;
+    text-decoration: underline;
+}
+.to:hover{
+    border: 1px solid;
+    margin-right: 1pc;
+    margin-left: 44px;
+
+}
+.out:hover{
+    border: 1px solid;
+    margin-right: 1pc;
+}
+.is:hover{
+    border: 1px solid;
+}
+.in:hover{
+    border: 1px solid;
+    border: 1px solid;
+    margin-right: 1pc;
+    margin-left: 44px;
+    margin-top: 1pc;
+}
+.the:hover{
+    border: 1px solid;
+    border: 1px solid;
+    margin-right: 1pc;
+    margin-top: 1pc;
+     animation: mymove 5s infinite;
+}
+.am:hover{
+    border: 1px solid;
+    margin-top: 1pc;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+    </style>
+</head>
+<body>
+    <div class="d">
+        <header class="d-flex flex-row">
+            <div></div>
+<p class="a">About</p>
+<p class="b">Home</p>
+<p class="c">Contact</p>
+        </header>
+</div>
+<div class="bell">
+    <p class="nidhi"><Strong>What's a royalty-free license?</Strong></p>
+    <p>Royalty-free licenses let you pay once to use copyrighted images and video clips in personal 
+        and commercial projects on an ongoing basis without requiring additional payments each time you use
+         that content. It's a win-win, and it's why everything on iStock is only available royalty-free.</p>
+</div>
+<div class="d-flex flex-row">
+    <div class="apple">
+        <img src="C:\Users\Public\Pictures\Sample Pictures/Icon-01.svg">
+        <h4>Support artists</h4>
+        <p>For every download on iStock, we pay the artist a one-time <br>
+         for using their intellectual property upfront,> supporting their  <br>
+         encouraging them to continue investing in their craft. We're proud
+         to work with over 200,000 artists worldwide.royalty paymentcreativity.<br>
+    </div>
+
+    <div class="ball">
+        <img src="C:\Users\Public\Pictures\Sample Pictures/icon-02.svg">
+        <h4>Protect yourself legally </h4>
+        <p>We make sure every file has legal releases for any recognizable people,
+           locations, or intellectual property, so you can use our files without <br>
+           about lawsuits related to the people and property depicted. And<br> 
+           we back it up with a $10,000 USD guarantee worrying.</p><br>
+    </div>
+
+    <div class="cat">
+        <img src="C:\Users\Public\Pictures\Sample Pictures/icon-03_resized.svg">
+        <h4>Pay once and use anywhere</h4>
+        <p>Get high res images and 4K video clips that you can use anywhere,<br>
+             with royalty-free photos and illustrations from $12 USD,
+              royalty-free 4K video clips from $60 USD.
+             Or save big with flexible plans to suit every budge<br>
+             t -- learn more about our plans and pricing.</p>
+    </div>
+</div>
+<div class="dog">
+    <p>What kinds of royalty-free files are available on iStock?</p>
+</div>
+<div class="duck">
+    <p>The possibilities are limitless — from social media ads to billboards, PowerPoint presentations
+         to feature films, you're free to modify, resize and customize our stock imagery to fit your projects.
+          With the exception of "Editorial use only" photos (which can only be
+         used in editorial projects and can't be modified), every image and video clip on iStock can be used in:</p>
+</div>
+  
+    <div class="img">
+        <img src="/C:\Users\Public\Pictures\Sample Pictures/Koala.jpg" width="500px" height="300px">
+    </div>
+
+    <h1>Pseudo-Element</h1>
+    <h2>font properties</h2>
+    <h3>color properties</h3>
+    <h4>background properties</h4>
+    <h5>margin properties</h5>
+    <h6>padding properties</h6>
+
+    <div class="first">
+    <p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text.
+         And even more, and more,
+         and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+        </div>
+
+        <div class="two">
+        <p><strong> the following example, the first letter of a paragraph will be red, in an xx-large font size.
+             The rest of the first line will be blue, and in small-caps.
+             The rest of the paragraph will be the default font size and color:</strong></p>
+            </div>
+
+            <div class="intro">
+                <p>
+                    In my younger and more vulnerable years
+                    my father gave me some advice that I've
+                    been turning over in my mind ever since.
+                    'Whenever you feel like criticizing anyone,' he told me,
+                    'just remember that all the people in this world
+                    haven't had the advantages that you've had.'
+                    In my younger and more vulnerable years
+                    my father gave me some advice that I've
+                    been turning over in my mind ever since.
+                    'Whenever you feel like criticizing anyone,' he told me,
+                    'just remember that all the people in this world
+                    haven't had the advantages that you've had.'
+                    In my younger and more vulnerable years
+                    my father gave me some advice that I've
+                    been turning over in my mind ever since.
+                    'Whenever you feel like criticizing anyone,' he told me,
+                    'just remember that all the people in this world
+                    haven't had the advantages that you've had.'
+                    </p>  
+                </div>
+                <div class="d-flex flex-row">
+                <div>
+                    <p> <strong>Welcome to Pseudo Elements</strong></p>
+                    <ul>
+                        <li>Combinator Selectors</li>
+                        <li>General Sibling</li>
+                        <li>Compound Selectors</li>
+                        <li>User Actions</li>
+                        <li>Link anchor</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>Here we will Learn About</strong></p>
+                    <ol>
+                        <li>Tally</li>
+                        <li>Wings</li>
+                        <li>VBA</li>
+                        <li>java</li>
+                        <li>MySql</li>
+                    </ol>
+                </div>
+            <div>
+                <a href="#">Learn HTML</a><br>
+                <a href="#">Learn CSS</a><br>
+                <a href="#">Learn JAVASCRIPT</a><br>
+            </div>
+        </div>
+
+        <div class="got">
+            <p><strong>How can you use royalty-free images and video clips?</strong></p>
+            <p>The possibilities are limitless — from social media ads to billboards, PowerPoint presentations to feature
+                 films, you're free to modify, resize and customize our stock imagery to fit your projects. With the exception
+                  of "Editorial use only" photos (which can only be
+                 used in editorial projects and can't be modified), every image and video clip on iStock can be used in:</p>
+        </div>
+        <div class="d-flex flex-row">
+            <div class="to">
+                <img src="C:\Users\Public\Pictures\Sample Pictures/iStock-154932347-border.png" width="400pc">
+                <p><strong>Editorial and publishing</strong></p>
+                <p>Newspapers or magazine articles, news reports,<br>
+                     e-books, books, blog posts, textbooks (up to<br>
+                      500,000 prints)</p>
+            </div>
+            <div class="out">
+                <img src="C:\Users\Public\Pictures\Sample Pictures/iStock-628561882-border.png" width="400pc">
+                <p><strong>Advertising and marketing</strong></p>
+                <p>Print ads, marketing campaigns, product<br> packaging, in-store displays,
+                     digital banner ads,<br> billboards, outdoor displays,
+                     transit ads, flyers,<br> brochures, TV and video commercials,
+                      trade<br> shows (up to 500,000 prints)</p>
+            </div>
+            <div class="is">
+                <img src="C:\Users\Public\Pictures\Sample Pictures/iStock-949895970-border.png" width="400pc">
+                <p><strong>Websites, apps and social media</strong></p>
+                <p>Web and mobile applications, social media posts,<br> digital 
+                    banner ads, email marketing, e-<br>newsletters, web 
+                    design, digital wallpapers,<br> digital art</p>
+            </div>
+        </div>
+        <div class="d-flex flex-row">
+            <div class="in">
+                <img src="C:\Users\Public\Pictures\Sample Pictures/iStock-1061329208-border.png" width="400pc">
+                <p><strong>Promotional purposes</strong></p>
+                <p>Flyers, brochures, posters, cards, direct mail,<br>
+                     email marketing, newsletters, prints and posters <br>
+                     (not for resale), novelties (up to 500,000 prints)</p>
+            </div>
+            <div class="the">
+                <img src="C:\Users\Public\Pictures\Sample Pictures/iStock-1094376514-border.png" width="400pc">
+                <p><strong>Corporate (including decor)</strong></p>
+                <p>Corporate presentations, branding material,<br>
+                     decor in a home, office or any public area</p>
+            </div>
+            <div class="am">
+                <img src="C:\Users\Public\Pictures\Sample Pictures/iStock-1142418918-border.png" width="400pc">
+                <p><strong>Broadcast media</strong></p>
+                <p>Film and television productions, TV and<br>
+                     video commercials, documentaries, personal <br>
+                     video and film projects</p>
+            </div>
+        </div>
+
+        <div><br><br><br>
+            <div>
+                <p><strong>Add an extended royalty-free license to do even more</strong></p>
+                <p>Adding an extended royalty-free
+                     license to the<br> standard license
+                      lets you use our content in even<br> more ways, including:</p>
+                      <ul>
+                          <li>500,000+ printed copies</li>
+                          <li>Physical products for resale</li>
+                          <li>Sharing files with team</li>
+                          <li>Digital templates for resale</li>
+                      </ul>
+                      <p>For more details on extended licenses, check out<br> 
+                        our license comparison page or view our license<br>
+                         agreement.</p>
+            </div>
+        </div>
+
+    <div class="d-flex flex-column">
+        <div>
+            <p><strong>Prohibited uses of royalty-free photos, illustrations or video clips</strong></p>
+            <p>Regardless of what license you buy, you can<br> you can never use iStock content for:</p>
+            <ul>
+                <li>Use in any logo or trademark</li>
+                <li>Pornographic, obscene or libelous works, or anything else unlawful</li>
+                <p>For the complete list of prohibitions, refer to the content license agreement.</p>
+            </ul>
+        </div>
+    </div>
+       
+
+
+                <div class="e">
+                    <footer>Thank You!!!!</footer>
+                </div>
+                
+</html>
